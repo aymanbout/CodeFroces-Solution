@@ -1,4 +1,4 @@
-words=[]
+words=[]  #creating a list 
 n=eval(input())
 for i in range (n):
   	n=input()
