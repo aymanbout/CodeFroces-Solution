@@ -1,14 +1,12 @@
-n=eval(input())
 words=[]
-
+n=eval(input())
 for i in range (n):
-	n=input()
-	words.append(n)
-if len(n)<10:
-	print (n)
-else : 
-	beforelastchar=len(n)-2
-	lastchar=n[len(n)]
-	print (n[0],end="")
-	print (n[1,beforelastchar],end="")
-	print (n[lastchar],end="")
+  	n=input()
+  	words.append(n)
+  	if len(n)<10:
+  		print (n)
+  	else:
+  		x=len(n)
+  		numofchar= n[1,x-1]
+  		lastchar=x-2
+  		print(n[0],numofchar,lastchar)
