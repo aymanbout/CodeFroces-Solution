@@ -1,4 +1,4 @@
-# e-nitiate
-:D
+# CodeForces
 
-This is for the best camp i had in IFRANE. 
+This is for the problems I solved in CF
+(OR CURRENTLY TRYING TO SOLVE)
