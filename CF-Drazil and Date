@@ -1,0 +1,6 @@
+a,b,s=map(int,input().split())
+if s<=0:
+	if a+b==s :
+		print("YES")
+	else:
+		print ("NO")
