@@ -1,6 +1,14 @@
+
+import math 
 a,b,s=map(int,input().split())
 
-if (a+b)%2==s%2 :
+x=abs(a)+abs(b)
+if x==s and s != 1:
 	print("YES")
-else:
+elif x==s and s == 1:
 	print ("NO")
+elif x>s:
+	print("NO")
+elif s-x==1:
+	print("NO")
+else: print ("YES")	
