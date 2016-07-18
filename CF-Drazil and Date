@@ -12,3 +12,16 @@ elif x>s:
 elif s-x==1:
 	print("NO")
 else: print ("YES")	
+
+
+
+
+
+import math 
+a,b,s=map(int,input().split())
+
+a=abs(a)
+b=abs(b)
+s=abc(s)
+
+if (a+b==s) or ((a+b)%2==0 and s%2==0 and s>=a+b) or ((a+b)%2!=0 and s%2!=0 and s>=a+b))
