@@ -1,0 +1,17 @@
+word = input()
+l = "x"
+s = l + word
+m = 1
+k = 1
+for i in word:
+    if i == l:
+        k += 1
+        if k > m:
+            m = k
+    else:
+        l = i
+        k = 1
+if m >= 7:
+    print ("YES")
+else:
+    print ("NO")
