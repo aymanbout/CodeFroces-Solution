@@ -1,8 +1,21 @@
-line=str(input())
+line=input("")
 x=len(line)
-vowel=["a","e","y","i","o","u"]
-for i in range[0,n+1]:
-	if line[i] != vowel:
-		print(line[i].lower)
+for i in range(0,x-1):
+	if line[i] == "a":
+		line = line.replace(line[i], "")
+	elif line[i] == "u":
+		line = line.replace(line[i], "")
+	elif line[i] == "y":
+		line = line.replace(line[i], "")
+	elif line[i] == "e":
+		line = line.replace(line[i], "")
+	elif line[i] == "i":
+		line = line.replace(line[i], "")
+	elif line[i] == "o":
+		line = line.replace(line[i], "")
+	else: 
+		print(".",end="")
+		print(line[i].lower(),end="")
 
-	
+
+#errortime in test 2
