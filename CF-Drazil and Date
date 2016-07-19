@@ -2,26 +2,12 @@
 import math 
 a,b,s=map(int,input().split())
 
-x=abs(a)+abs(b)
-if x==s and s != 1:
-	print("YES")
-elif x==s and s == 1:
-	print ("NO")
-elif x>s:
-	print("NO")
-elif s-x==1:
-	print("NO")
-else: print ("YES")	
-
-
-
-
-
-import math 
-a,b,s=map(int,input().split())
-
-a=abs(a)
-b=abs(b)
-s=abc(s)
-
-if (a+b==s) or ((a+b)%2==0 and s%2==0 and s>=a+b) or ((a+b)%2!=0 and s%2!=0 and s>=a+b))
+if(a<0):  
+	a = -a
+if(b<0)  :
+	b= -b
+tota = a + b  
+s = s - tota 
+if(s%2 == 0 and s >= 0) :
+	print("Yes")
+else : print("No")  
